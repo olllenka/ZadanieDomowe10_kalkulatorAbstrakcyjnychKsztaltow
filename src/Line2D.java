@@ -12,9 +12,11 @@ public class Line2D extends Shape2D {
         this.y2 = y2;
     }
 
-    public double getX1() {
-        return x1;
+    public void showInfo(double length){
+        System.out.println("Odcinek wyznaczony przez współrzędne [" + x1 + ", " + y1 + "] [" + x2 + ", " + y2 + "] ma długość " + length);
     }
+
+    public double getX1() { return x1; }
 
     public double getY1() {
         return y1;

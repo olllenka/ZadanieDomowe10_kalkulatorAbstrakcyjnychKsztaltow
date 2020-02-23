@@ -6,6 +6,11 @@ public class Ball extends Shape3D {
         this.radius = radius;
     }
 
+    @Override
+    public void showInfo(double volume){
+        System.out.println("Kula o promieniu " + radius + " ma objętość " + volume);
+    }
+
     public double getRadius() {
         return radius;
     }

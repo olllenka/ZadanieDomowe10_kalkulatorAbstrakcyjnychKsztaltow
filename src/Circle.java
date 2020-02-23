@@ -9,4 +9,9 @@ public class Circle extends GeometricShape {
     public double getRadius() {
         return radius;
     }
+
+    @Override
+    public void showInfo(double area){
+        System.out.println("Koło o promieniu " + radius + " ma pole, które wynosi " + area);
+    }
 }

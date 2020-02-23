@@ -8,6 +8,11 @@ public class Rectangle extends GeometricShape {
         this.width = width;
     }
 
+    @Override
+    public void showInfo(double area){
+        System.out.println("Prostokąt o długościach boków " + length + " i " + width + " ma pole, które wynosi " + area);
+    }
+
     public double getLength() {
         return length;
     }
